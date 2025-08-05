@@ -7,32 +7,29 @@ enableRobotsTXT: true
 pagination:
   pagerSize: 20
 
-taxonomies:
-    tag: tags
+#taxonomies:
+#    tag: tags
 
-menu:
-    main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+# menu:
+#     main:
+#         - name: Books
+#           url: books/
+#           weight: 5 
+#         - name: Papers
+#           url: papers/
+#           weight: 2
+#         - name: Courses
+#           url: courses/
+#           weight: 3
+#         - name: Data
+#           url: data/
+#           weight: 4 
 
 params:
     description: "This is the personal website for Christopher N. Everett"
     author: Christopher N. Everett
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
+    DateFormat: "August 2025"
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
@@ -44,7 +41,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: []
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -55,33 +52,25 @@ params:
     profileMode:
           enabled: true
           title: Christopher N. Everett
-          subtitle: "I am a D.Phil. student working in the Astrophysics sub-department of the University of Oxford under the supervision of Prof. Garret Cotter. My research pertains to mesoscopic modelling of astrophysical jets, in paricular Blazars. I also have interests in the field of advanced spacecraft propulsion - developing system inspired by astrophysical particle acceleration to acceleate humanity into the stars."
-          imageUrl: "picture.jpeg"
+          subtitle: "I am a D.Phil. student working in the Astrophysics sub-department of the University of Oxford under the supervision of Prof. Garret Cotter. My research pertains to mesoscopic modelling of astrophysical jets, in particular blazars. I also have interests in the field of advanced spacecraft propulsion - developing system inspired by astrophysical particle acceleration to acceleate humanity into the stars."
+          imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160
-          buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          #buttons:
+          #  - name: Papers
+          #    url: papers/
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
+
         - name: Email
           url: mailto:christopher.everett@physics.ox.ac.uk
+        - name: CV
+          url: cv.pdf
         - name: GitHub
           url: https://github.com/cneverett
+        - name: orcid
+          url: https://orcid.org/0000-0001-5181-108X
+
 
     assets:
         disableScrollBarStyle: true
