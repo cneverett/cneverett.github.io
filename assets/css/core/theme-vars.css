@@ -19,13 +19,13 @@
     --darkcolor: #6a7ba2;
     --lightcolor: #cbd1de;
     --semibold: 500;
-    --homesize: 16px;
+    --homesize: 20px;
     --textsize: 18px;
     --h1size: 25px;
     --entrysize: 15px;
     --headersize: 16px;
     --footersize: 13px;
-    --lineheight: 1.45;
+    --lineheight: 1.2;
     --lineclamp: 8;
     --marginleft: 26px;
 }
