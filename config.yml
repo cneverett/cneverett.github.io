@@ -1,5 +1,5 @@
 baseURL: "https://cneverett.github.io" 
-title: Christopher N. Everett
+title: Christopher Everett
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -26,8 +26,8 @@ pagination:
 #           weight: 4 
 
 params:
-    description: "This is the personal website for Christopher N. Everett"
-    author: Christopher N. Everett
+    description: "This is the personal website for Christopher Everett"
+    author: Christopher Everett
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "August 2025"
     defaultTheme: light
@@ -51,7 +51,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Christopher N. Everett
+          title: Christopher Everett
           subtitle: "I am a D.Phil. student working in the Astrophysics sub-department of the University of Oxford under the supervision of Prof. Garret Cotter. My research pertains to mesoscopic modelling of astrophysical jets, in particular blazars. I also have interests in the field of advanced spacecraft propulsion - developing system inspired by astrophysical particle acceleration to acceleate humanity into the stars."
           imageUrl: "picture.jpg"
           imageWidth: 200
@@ -78,7 +78,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Christopher N. Everett"
+      text: "Christopher Everett"
       icon: favicon.ico
       iconHeight: 18
 
