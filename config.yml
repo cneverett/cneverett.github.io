@@ -1,6 +1,7 @@
 baseURL: "https://cneverett.github.io" 
 title: Christopher Everett
 theme: PaperMod
+sitename: Christopher Everett
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
