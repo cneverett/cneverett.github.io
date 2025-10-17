@@ -66,7 +66,7 @@ params:
         - name: Email
           url: mailto:christopher.everett@physics.ox.ac.uk
         - name: CV
-          url: CV.pdf
+          url: cv.pdf
         - name: GitHub
           url: https://github.com/cneverett
         - name: orcid
