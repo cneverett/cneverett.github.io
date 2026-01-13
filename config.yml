@@ -53,7 +53,7 @@ params:
     profileMode:
           enabled: true
           title: Christopher Everett
-          subtitle: "I am a D.Phil. student working in the Astrophysics sub-department of the University of Oxford under the supervision of Prof. Garret Cotter. My research pertains to mesoscopic modelling, that is to say modelling that includes macro- and micro-scale physics all in one, of astrophysical jets. In particular I am looking at blazar emissions using the Diplodocus.jl (click the little dinosaur below), a code I have developed to perform this meso-scale modelling. I also have interests in the field of advanced spacecraft propulsion - developing system inspired by astrophysical particle acceleration to accelerate humanity into the stars."
+          subtitle: "I am a D.Phil. student working in the Astrophysics sub-department of the University of Oxford under the supervision of Prof. Garret Cotter. My research pertains to mesoscopic modelling of astrophysical jets, that is to say modelling that includes both macro-scale physics of jet and spacetime structure and micro-scale physics of particle interactions all in one self-consistent package. To do this I have developed Diplodocus.jl (click the little dinosaur below), a framework through which to conduct this modelling. I am currently exploring how the inclusion of both micro- and macro-effects can alter our perspective on observations from jetted sources such as blazar. I also have interests in the field of advanced spacecraft propulsion - developing system inspired by astrophysical particle acceleration to accelerate humanity into the stars."
           imageUrl: "picture.jpg"
           imageWidth: 200
           imageHeight: 200
