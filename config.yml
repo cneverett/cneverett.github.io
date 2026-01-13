@@ -53,7 +53,7 @@ params:
     profileMode:
           enabled: true
           title: Christopher Everett
-          subtitle: "I am a D.Phil. student working in the Astrophysics sub-department of the University of Oxford under the supervision of Prof. Garret Cotter. My research pertains to mesoscopic modelling of astrophysical jets, in particular blazars, using the [Diplodocus.jl](https://cneverett.github.io/Diplodocus.jl/dev/) code {{ partial "icons/ionicons" "DIP_logo" }}. I also have interests in the field of advanced spacecraft propulsion - developing system inspired by astrophysical particle acceleration to accelerate humanity into the stars."
+          subtitle: "I am a D.Phil. student working in the Astrophysics sub-department of the University of Oxford under the supervision of Prof. Garret Cotter. My research pertains to mesoscopic modelling of astrophysical jets, in particular blazars, using the [Diplodocus.jl](https://cneverett.github.io/Diplodocus.jl/) code. I also have interests in the field of advanced spacecraft propulsion - developing system inspired by astrophysical particle acceleration to accelerate humanity into the stars."
           imageUrl: "picture.jpg"
           imageWidth: 200
           imageHeight: 200
