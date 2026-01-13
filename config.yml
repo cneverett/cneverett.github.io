@@ -73,7 +73,7 @@ params:
           url: https://orcid.org/0000-0001-5181-108X
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=qapYZGkAAAAJ&hl
-        - name: Diplodocus
+        - name: "diplodocus"
           url: https://cneverett.github.io/Diplodocus.jl/
 
 
