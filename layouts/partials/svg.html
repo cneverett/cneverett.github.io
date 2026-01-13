@@ -1030,12 +1030,6 @@ stroke-linecap="round" stroke-linejoin="round">
      <path d="M 13.170768,11.935987 14.59425,9.3677519" />
      <path d="M 14.54983,14.574583 17.177574,9.4459113" />
 </svg>
-{{- else if $icon_name -}}
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-</svg>
 {{- else if (eq $icon_name "Diplodocus") -}}
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.933 16.933" >
  <g transform="matrix(.30404 0 0 .30404 -8.1292 -6.8695)" stroke-linecap="round" stroke-linejoin="round">
@@ -1059,4 +1053,10 @@ stroke-linecap="round" stroke-linejoin="round">
   <ellipse transform="rotate(-15.241)" cx="33.58" cy="35.912" rx="1.3846" ry=".98729" stroke="#000" stroke-width=".33756"/>
  </g>
 </svg>  
+{{- else if $icon_name -}}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
 {{- end -}}

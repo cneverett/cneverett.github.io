@@ -71,8 +71,10 @@ params:
           url: https://github.com/cneverett
         - name: orcid
           url: https://orcid.org/0000-0001-5181-108X
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=qapYZGkAAAAJ&hl
         - name: Diplodocus
-          #url: https://cneverett.github.io/Diplodocus.jl/
+          url: https://cneverett.github.io/Diplodocus.jl/
 
 
     assets:
