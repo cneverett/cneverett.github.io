@@ -1,0 +1,7 @@
+.inline-svg {
+  position: relative;
+  top: 0.25rem;
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+}

@@ -1,0 +1,6 @@
+{{ $svg := resources.Get (print "ionicons/" . ".svg") }}
+<span class="inline-svg">
+  {{- $path:="<path" -}} {{- $fill:="<path fill=\"none\"" -}} {{ replace
+  ($svg.Content) $path $fill | safeHTML }}
+</span>
+{{ end }}
