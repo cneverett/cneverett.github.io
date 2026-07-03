@@ -73,4 +73,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v5 
         with:
-          timeout: 600000   # 10 minutes (milliseconds)
+          timeout: 10m   # 10 minutes (milliseconds)
